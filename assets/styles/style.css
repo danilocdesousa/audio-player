@@ -48,3 +48,8 @@ p {
     background: url("https://via.placeholder.com/500") no-repeat center center / cover;
     height: 200px;
 }
+
+audio {
+    width: 100%;
+    margin-top: 24px;
+}
