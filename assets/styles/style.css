@@ -16,7 +16,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px;
+    padding: 24px;
 }
 
 h4 {
@@ -52,4 +52,8 @@ p {
 audio {
     width: 100%;
     margin-top: 24px;
+}
+
+.audio-player-icon {
+    padding-right: 10px;
 }

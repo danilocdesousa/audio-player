@@ -1,9 +1,10 @@
-window.audios = [
+// O "audios " está definido para global, a ser acessado em qualquer lugar na aplicação.
+window.audioList = [
     {
         title: "Ambient Cinematic Hip-Hop",
         artist: "Anton Vlasov",
         cover: "hand-1850120_640.jpg",
-        audiofile: "into-the-night-20928"
+        audio: "into-the-night-20928.mp3"
     },
     {
         title: "Order",

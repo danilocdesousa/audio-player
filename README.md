@@ -2,7 +2,7 @@
 
 **Este projeto é um estudo baseado no conteúdo do canal da Rocketseat no YouTube.**
 
-<img src="assets/screenshots/screenshot-127.0.0.1_5500-2022.04.08-12_43_11.png">
+<img src="assets/screenshots/screenshot-127.0.0.1_5500-2022.04.10-13_50_44.png">
 
 ## Audio Player
 Ao longo do vídeo é explicado como usar a tag de áudio HTML5, que permite criar um reprodutor de áudio, utilizando Javascript puro e o Materialize como um framework CSS.
