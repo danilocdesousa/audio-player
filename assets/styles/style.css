@@ -1,5 +1,8 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+:root {
+    --primary-color: #6b8cce;
+}
 
 body {
     height: 100vh;
@@ -13,10 +16,8 @@ body {
 h3 {
     font-size: 1.5rem;
     margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 h4 {
@@ -54,6 +55,46 @@ audio {
     margin-top: 24px;
 }
 
+.title-center-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .audio-player-icon {
     padding-right: 10px;
+    color: var(--primary-color);
+}
+
+#play-pause {
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+#volume-icon {
+    color: #ffffff;
+}
+
+.music-sliders {
+    padding-top: 24px;
+}
+
+#seekbar,
+#vol-control {
+    border: none;
+}
+
+.controls-padding {
+    padding-bottom: 12px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--primary-color);
+}
+
+input[type="range"]::-moz-range-thumb {
+    background-color: var(--primary-color);
+}
+
+input[type="range"]::-ms-thumb {
+    background-color: var(--primary-color);
 }
